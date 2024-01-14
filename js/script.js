@@ -1,18 +1,18 @@
 
 
-const RADIO_NAME = 'Game! Radio 1';
+const RADIO_NAME = 'Road FM';
 
 // SELECT ARTWORK PROVIDER, ITUNES, DEEZER & SPOTIFY  eg : spotify 
 var API_SERVICE = 'SPOTIFY';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR ETC.... DOES NOT SUPPORT HLS
-const URL_STREAMING = 'https://stream-51.zeno.fm/cfhkm5fs1uhvv?zs=HOu6hxV1SG-7iGi9WGVTqQ';
+const URL_STREAMING = 'https://listen.openstream.co/6859/audio';
 
 //NOW PLAYING API.
-const API_URL = 'https://api.joeycast.com/songid/4eb1b192-cff3-4b95-a46c-13cbc5048730'
+const API_URL = 'https://infra.roadfm.fr/api/nowplaying/road_fm'
 
 // Visit https://api.vagalume.com.br/docs/ to get your API key
-const API_KEY = "18fe07917957c289983464588aabddfb";
+const API_KEY = "68cf2edf315c80f4:37e9d7dc0eba93376ce7d6163340bcc4";
 
 window.onload = function () {
     var page = new Page;
